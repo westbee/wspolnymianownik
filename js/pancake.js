@@ -1,10 +1,3 @@
-if( $(window).width() > 768) {
-        document.getElementById("no-comma").innerHTML = "Ostrobramska 126, 04-026 Warszawa";
-        }
-        else {
-
-        }
-
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {
     if ($(".navbar").offset().top > 50) {

@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Work Sans',Helvetica,Arial, sans-serif;    
+    font-family: 'Work Sans',Helvetica,Arial, sans-serif;
     color: #fff;
     background-color: #000;
 }
@@ -180,6 +180,15 @@ a:focus {
     padding-top: 100px;
 }
 
+.small-margin-break {
+  margin: 40px 0;
+}
+
+hr.xs-divider {
+  border-color: #ffffffba;
+  border-width: 1px;
+  max-width: 100%;
+}
 
 @media(min-width:768px) {
     .intro {
@@ -196,6 +205,10 @@ a:focus {
         width: 80%;
     }
 
+    .divider {
+      border-right: 1px solid #ffffffba;
+      border-bottom: none;
+    }
 }
 
 @media(min-width:1280px) {
@@ -249,7 +262,7 @@ hr {
     .content-section {
         padding-top: 100px;
     }
-	
+
 }
 
 .menu-body h1 {
@@ -309,7 +322,7 @@ p.order-tel {
 }
 
 .panel-body p {
-    color: #000;    
+    color: #000;
     font-size: 14px;
     font-family: 'Work Sans',Helvetica,Arial, sans-serif;
     font-weight: 400;
