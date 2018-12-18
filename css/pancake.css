@@ -377,9 +377,34 @@ div.instagram-button {
     padding-bottom: 80px;
 }
 
+.contact__headline {
+  text-transform: uppercase;
+  padding: 30px 0;
+  font-weight: 300;
+}
+
+@media (min-width: 992px) {
+  .contact__headline {
+    padding: 60px 0;
+  }
+  .lg-divider {
+    border-right: 1px solid #ffffffba;
+    border-bottom: none;
+  }
+}
+
 .contact-data {
     padding-top: 30px;
     padding-bottom: 50px;
+}
+
+.map.contact-data {
+    padding-top: 80px;
+}
+
+.contact-data .fa {
+  color: #ffffffb5;
+  padding-bottom: 15px;
 }
 
 .contact-data p {
