@@ -171,7 +171,7 @@ a:focus {
 }
 
 .intro-bg {
-    width: 100%;
+    width: 90%;
 }
 
 .intro .intro-body {
@@ -190,6 +190,22 @@ hr.xs-divider {
   max-width: 100%;
 }
 
+.logo-social {
+  margin-top: 30px;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+.logo-social img {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.logo-social img:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
 @media(min-width:768px) {
     .intro {
         background: url(../img/intro2.jpg) no-repeat 20% center scroll;
@@ -202,7 +218,7 @@ hr.xs-divider {
     }
 
     .intro-bg {
-        width: 80%;
+        width: 70%;
     }
 
     .divider {
@@ -223,7 +239,7 @@ hr.xs-divider {
     }
 
     .intro-bg {
-        width: 85%;
+        width: 75%;
     }
 
 }
