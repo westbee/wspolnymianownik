@@ -168,6 +168,8 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
     background-position: 60% 80%;
+    /* -webkit-filter: brightness(0.70);
+    filter: brightness(0.70); */
 }
 
 .intro-bg {
@@ -188,6 +190,10 @@ hr.xs-divider {
   border-color: #ffffffba;
   border-width: 1px;
   max-width: 100%;
+}
+
+.intro h3.text-uppercase {
+  font-weight: 300;
 }
 
 .logo-social {
