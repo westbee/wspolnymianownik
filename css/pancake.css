@@ -223,10 +223,7 @@ hr.xs-divider {
     }
 
     .intro-bg {
-        width: 60%;
-    }
-    .intro .intro-body {
-        padding-top: 20px;
+        width: 50%;
     }
     .divider {
       border-right: 1px solid #ffffffba;
@@ -247,9 +244,6 @@ hr.xs-divider {
 
     .intro-bg {
         width: 65%;
-    }
-    .intro .intro-body {
-        padding-top: 60px;
     }
 }
 
