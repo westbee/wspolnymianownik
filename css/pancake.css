@@ -170,13 +170,13 @@ a:focus {
 }
 
 .intro-bg {
-    width: 90%;
+    width: 80%;
 }
 
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .small-margin-break {
@@ -221,9 +221,11 @@ hr.xs-divider {
     }
 
     .intro-bg {
-        width: 70%;
+        width: 60%;
     }
-
+    .intro .intro-body {
+        padding-top: 20px;
+    }
     .divider {
       border-right: 1px solid #ffffffba;
       border-bottom: none;
@@ -242,9 +244,11 @@ hr.xs-divider {
     }
 
     .intro-bg {
-        width: 75%;
+        width: 65%;
     }
-
+    .intro .intro-body {
+        padding-top: 60px;
+    }
 }
 
 hr {
