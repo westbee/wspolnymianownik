@@ -225,7 +225,9 @@ hr.xs-divider {
         width: 50%;
     }
     .divider {
-      border-right: 1px solid #ffffffba;
+      border-right-width: 1px;
+      border-right-style: solid;
+      border-right-color: #ffffffba;
       border-bottom: none;
     }
 }
@@ -406,7 +408,9 @@ div.instagram-button {
     padding: 60px 0;
   }
   .lg-divider {
-    border-right: 1px solid #ffffffba;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #ffffffba;
     border-bottom: none;
   }
 }
