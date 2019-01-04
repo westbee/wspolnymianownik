@@ -51,11 +51,11 @@ if( $(window).width() > 700 ) {
     userId: '3645636448',
     clientId: '8f1cdeeab6e346dfb19bbdc532c8a27c',
     accessToken: '3645636448.8f1cdee.10958734af8e4dca8ac33b41795603c1',
-    resolution: 'low_resolution',
+    resolution: 'thumbnail',
     orientation: 'square',
-    template: '<div class="col-xs-6 col-sm-3 insta-break text-center"><a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" class="instagram-{{orientation}} img-responsive" /></a></div>',
+    template: '<div class="col-xs-4 col-sm-3 col-md-2 insta-break"><a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" class="instagram-{{orientation}} img-responsive" /></a></div>',
     sortBy: 'most-recent',
-    limit: 4,
+    limit: 12,
     links: false
   });
   feed.run();

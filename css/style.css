@@ -381,7 +381,21 @@ div.instagram-button {
 }
 
 .insta-break {
-    padding-top: 30px;
+    padding: 5px;
+}
+
+@media (min-width: 490px) and (max-width: 767px) {
+  .row.inst {
+    width: 450px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .row.inst {
+    width: 600px;
+    margin: 0 auto;
+  }
 }
 
 #map {
