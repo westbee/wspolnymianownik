@@ -28,6 +28,14 @@ $('.navbar-collapse ul li a').click(function() {
   }
 });
 
+// parallax menu background position
+
+if( $(window).width() > 700 ) {
+  $("#parallax-menu").attr("data-position", "center center");
+} else {
+  $("#parallax-menu").attr("data-position", "-100px center");
+}
+
 // Custom
 
 (function(d, s, id) {
