@@ -162,7 +162,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/bg-intro.jpg) no-repeat 10% 80% scroll;
+    background: url(../img/bg-intro.jpg) no-repeat 10% 80% fixed;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
