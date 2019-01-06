@@ -410,15 +410,20 @@ div.instagram-button {
     padding-bottom: 80px;
 }
 
+a.button-cust {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .contact__headline {
   text-transform: uppercase;
-  padding: 30px 0;
+  padding: 40px 0 0;
   font-weight: 300;
 }
 
 @media (min-width: 992px) {
   .contact__headline {
-    padding: 60px 0;
+    padding: 60px 0 0;
   }
   .lg-divider {
     border-right-width: 1px;
@@ -429,22 +434,30 @@ div.instagram-button {
 }
 
 .contact-data {
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact__underline {
+  margin-top: 10px;
 }
 
 .map.contact-data {
     padding-top: 80px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .contact-data .fa {
   color: #ffffffb5;
   padding-bottom: 15px;
+  text-align: center;
 }
 
 .contact-data p {
     margin: 0 0 0;
-    font-size: 16px;
 }
 
 
