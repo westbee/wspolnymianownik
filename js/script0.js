@@ -59,3 +59,13 @@ if( $(window).width() > 700 ) {
     links: false
   });
   feed.run();
+
+  // footer
+  var date = new Date().getFullYear();
+  var footerContent = `
+    <div class="container text-center">
+      <p>&copy;2017-${date} Wspólny Mianownik. All rights reserved.</p>
+    </div>
+  `;
+
+$('footer').append(footerContent);
